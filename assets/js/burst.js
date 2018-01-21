@@ -1,39 +1,17 @@
 const DURATION = 600
 
-/*const smoke = new mojs.Burst({
-  left: 0, top: 0,
-  degree:   0,
-  count:    5,
-  radius:   { 0: 80 },
-  children: {
-    shape: 'polygon',
-    radiusY: '20',
-    fill:       'maroon',
-    pathScale:  'rand(0.5, 1)',
-    radius:     'rand(30, 55)',
-    swirlSize:  'rand(10, 15)',
-    swirlFrequency: 'rand(2, 4)',
-    direction:  [ 1, -1 ],
-    duration:   `rand(${1*DURATION}, ${2*DURATION})`,
-    delay:      'rand(0, 100)',
-    easing:     'quad.out',
-    isSwirl:    true,
-    isForce3d:  true,
-  }
-});*/
-
-
 const smoke = new mojs.Burst({
   left: 0, top: 0,
   degree:   0,
   count:    3,
   radius:   { 0: 100 },
   children: {
-    fill:       'maroon',
+    fill:       '#2A0000',
     pathScale:  'rand(0.5, 1)',
     radius:     'rand(12, 15)',
     swirlSize:  'rand(10, 15)',
     swirlFrequency: 'rand(2, 4)',
+    degreeShift: 180,
     direction:  [ 1, -1 ],
     duration:   `rand(${1*DURATION}, ${2*DURATION})`,
     delay:      'rand(0, 75)',
