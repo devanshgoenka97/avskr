@@ -1447,6 +1447,17 @@ textarea::-webkit-input-placeholder {
     #awd-site-footer {
         display: none;
     }
+    .logos{
+        margin-top: 80vh;
+        text-align: center;
+    }
+    .logo{
+        height: 2rem!important;
+        width: 2rem!important;
+        z-index: 2;
+    
+        }
+
 
 }
 
@@ -1519,6 +1530,16 @@ textarea::-webkit-input-placeholder {
         margin-top: 15px;
     }
 
+    .logos{
+        margin-top: 80vh;
+        text-align: center;
+    }
+    .logo{
+    height: 2rem!important;
+    width: 2rem!important;
+    z-index: 2;
+
+    }
 }
 
 @media only screen and (max-width: 320px) {
@@ -1550,6 +1571,43 @@ textarea::-webkit-input-placeholder {
         font-size: 28px;
         margin: 20px 0;
     }
+    .logos{
+        margin-top: 80vh;
+        text-align: center;
+    }
+    .logo{
+        height: 2em!important;
+        width: 2rem!important;
+        z-index: 2;
+    
+    }
+}
 
+.logos{
+    text-align: right;
+    animation: fadeInDown 1.5s;
+}
 
+.logo{
+    height: 5rem!important;
+    width: 5rem!important;
+    z-index: 2;
+}
+
+@media only screen and (max-width: 768px){
+    .logos{
+        margin-top: 90vh;
+        text-align: right;
+    }
+    
+    .logo{
+        height: 2rem!important;
+        width: 2rem!important;
+        z-index: 2;
+    }
+    
+}
+
+#nit_logo{
+    height: 5rem;
 }
