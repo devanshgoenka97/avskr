@@ -42,7 +42,8 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    color: #E1E2E4;
+    /*color: #E1E2E4;*/
+    color: #fff;
 }
 
 .bg-home *:not(i):not(nav):after,

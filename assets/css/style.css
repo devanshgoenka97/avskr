@@ -1574,6 +1574,7 @@ textarea::-webkit-input-placeholder {
     .logos{
         margin-top: 80vh;
         text-align: center;
+        display: none;
     }
     .logo{
         height: 2em!important;
@@ -1598,6 +1599,7 @@ textarea::-webkit-input-placeholder {
     .logos{
         margin-top: 90vh;
         text-align: right;
+        display: none;
     }
     
     .logo{
@@ -1613,5 +1615,6 @@ textarea::-webkit-input-placeholder {
 }
 
 #fest_logo{
-    height: 20rem;
+    margin-top: -40px;
+    height: 15rem;
 }
