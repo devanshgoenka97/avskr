@@ -1279,7 +1279,7 @@ textarea::-webkit-input-placeholder {
 
 @media only screen and (max-width: 768px) {
 
-    #fest_logo{
+    a #fest_logo{
         height: 40vh;
         margin-top: -10px;
     }
