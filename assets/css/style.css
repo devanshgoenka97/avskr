@@ -1279,6 +1279,11 @@ textarea::-webkit-input-placeholder {
 
 @media only screen and (max-width: 768px) {
 
+    #fest_logo{
+        height: 40vh;
+        margin-top: -10px;
+    }
+
     .countdown {
         width: 100%;
     }
@@ -1616,5 +1621,5 @@ textarea::-webkit-input-placeholder {
 
 #fest_logo{
     margin-top: -40px;
-    height: 15rem;
+    height: 35vh;
 }
