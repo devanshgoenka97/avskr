@@ -1280,8 +1280,7 @@ textarea::-webkit-input-placeholder {
 @media only screen and (max-width: 768px) {
 
     a #fest_logo{
-        height: 30vh;
-        margin-top: -10px;
+        height: 7vh;
     }
 
     .countdown {
@@ -1469,8 +1468,7 @@ textarea::-webkit-input-placeholder {
 @media only screen and (max-width: 480px) {
 
     a #fest_logo{
-        height: 30vh;
-        margin-top: -10px;
+        height: 6vh;
     }
 
     /* Clock */
@@ -1608,8 +1606,7 @@ textarea::-webkit-input-placeholder {
 @media only screen and (max-width: 768px){
 
     a #fest_logo{
-        height: 30vh;
-        margin-top: -10px;
+        height: 7vh;
     }
 
     .logos{
@@ -1631,6 +1628,5 @@ textarea::-webkit-input-placeholder {
 }
 
 #fest_logo{
-    margin-top: -40px;
-    height: 35vh;
+    height: 9vh;
 }
