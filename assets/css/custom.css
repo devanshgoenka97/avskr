@@ -37,7 +37,7 @@
 .bg-home,
 .bg-home nav:before {
     /*background-color: #3F51B5;*/
-    background: url('../img/giphy.gif') no-repeat center center fixed; 
+    background: url('../img/landing.gif') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
