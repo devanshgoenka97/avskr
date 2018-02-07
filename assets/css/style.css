@@ -1468,7 +1468,9 @@ textarea::-webkit-input-placeholder {
 @media only screen and (max-width: 480px) {
 
     a #fest_logo{
-        height: 6vh;
+        width:auto; 
+        height: auto; 
+        max-height: 4rem;
     }
 
     /* Clock */
@@ -1606,7 +1608,9 @@ textarea::-webkit-input-placeholder {
 @media only screen and (max-width: 768px){
 
     a #fest_logo{
-        height: 7vh;
+        width:auto; 
+        height: auto; 
+        max-height: 6rem;
     }
 
     .logos{
@@ -1628,5 +1632,7 @@ textarea::-webkit-input-placeholder {
 }
 
 #fest_logo{
-    height: 9vh;
+    width:auto; 
+    height: auto; 
+    max-height: 8rem;
 }
