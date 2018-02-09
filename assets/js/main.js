@@ -4,6 +4,9 @@
  * version: v1.1
  * url: http://themeforest.net/user/awedoo
  */
+function myFunction() {
+    document.getElementById('preloader').innerHTML = ""
+}
 
 (function ($) {
     "use strict";
